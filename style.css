@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/55/95/23579d9d9102440.jpg") bottom center;
     background-size: cover;
 }
   
@@ -30,6 +30,8 @@ body,html {
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
+    display: flex;
+    flex-direction: column;
 }
   
 .playing {
@@ -48,4 +50,8 @@ body,html {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+}
+
+div {
+    height: 40px;
 }
